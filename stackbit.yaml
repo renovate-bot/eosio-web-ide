@@ -1,0 +1,30 @@
+stackbitVersion: ~0.3.0
+dataDir: webapp
+models:
+  tsconfig:
+    type: data
+    label: Tsconfig
+    file: tsconfig.json
+    fields:
+      - type: object
+        name: compilerOptions
+        label: Compiler Options
+        fields:
+          - type: string
+            name: outDir
+            label: Out Dir
+          - type: boolean
+            name: sourceMap
+            label: Source Map
+          - type: boolean
+            name: noImplicitAny
+            label: No Implicit Any
+          - type: string
+            name: module
+            label: Module
+          - type: string
+            name: target
+            label: Target
+          - type: string
+            name: jsx
+            label: Jsx
